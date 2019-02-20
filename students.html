@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students list</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body class="container-fluid">
+    <div class="container jumbotron text-center">
+        <h1>Babcock University</h1>
+        <h5>List of Students</h5>
+    </div>
+    <table width="100%">
+            <thead>
+                <th>Name</th>
+                <th>Class</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input id="name" size="35"></td>
+                    <td><input id="class" size="35"></td>
+                    <td><button id="saveBtn">Save</button></td>
+                </tr>
+                <tr>
+                    <td><ol id="namelist"></ol></td>
+                    <td><ol id="classlist"></ol></td>
+                </tr>
+                </tbody>
+        </table><br><br><br>
+
+    <script src="scripts/students.js"></script>
+    <script src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

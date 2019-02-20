@@ -1,0 +1,19 @@
+th, td{
+text-align: center;
+
+}
+
+ul#namelist{
+    list-style: decimal;
+}
+li{
+    font-weight: normal
+}
+
+
+ol{
+    list-style: none;
+}
+ol#namelist {
+    list-style: decimal
+}
