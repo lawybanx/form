@@ -27,5 +27,5 @@ loginButton.addEventListener('click', function () {
 var teacher = document.querySelector('#teacher');
 teacher.addEventListener('click', function () {
     'use strict';
-    window.location.assign('loginPage.html');
+    window.location.assign('index.html');
 });
